@@ -2,15 +2,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getFirestore, collection, addDoc, query, orderBy, limit, onSnapshot, serverTimestamp }
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-// 1) الصقي هنا إعدادات مشروعك من Firebase
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCQdnPjJisgMcIijrh0snk5SJ2kEhwQEdE",
-  authDomain: "hajar-birthday.firebaseapp.com",
-  projectId: "hajar-birthday",
-  storageBucket: "hajar-birthday.firebasestorage.app",
-  messagingSenderId: "407573496200",
-  appId: "1:407573496200:web:ab858ced82df918ae53a3d"
+  apiKey: "AIzaSyDHMlJMcfXbfdaGPlb8RxxvdCm_JuN0Nn0",
+  authDomain: "bdaywall-5a42a.firebaseapp.com",
+  projectId: "bdaywall-5a42a",
+  storageBucket: "bdaywall-5a42a.firebasestorage.app",
+  messagingSenderId: "67216283182",
+  appId: "1:67216283182:web:05a6a1c13ec4daa782b1bf",
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
